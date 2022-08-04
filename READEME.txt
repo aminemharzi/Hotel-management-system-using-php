@@ -1,0 +1,35 @@
+# Online_Hotel_Management_System_PHP
+
+## About Online_Hotel_Management_System_PHP
+
+Online Hotel a Hotel Management System which provides Online Hotel booking or reservation Facility. The main target of this project is to create a platform to where a user can reserve a hotel and pay for it. Moreover, the system has been developed in such a way which makes it reliable, secure and user friendly.
+
+
+[Live Preview (Admin user:"amine.mharzi67@gmail.com" and Admin Password:"12345")](http://samprojects.tk/hotel_management_system/)
+
+
+## User Role
+- Open the more page first
+- go to admin management
+- then enter the user admin
+- Check Room Availability
+- Reserve Room to register or Login
+- See Room Details
+- Cancel Reservation
+
+
+## Admin Panel
+
+- Manage Check-in & Check-out
+- Manage Reservation
+- Generate billing info
+- Check Payment(daily, monthly, yearly) info
+
+## USED TECHNOLOGIES/LIBRARIES/ETC
+
+- Raw PHP for backend services
+- MySql for Database administration
+- Bootstrap Template for frontend design
+- Some Others vendor like fpdf
+
+

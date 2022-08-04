@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.full{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(hotels/xwZEGOj.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active{
+    color: white;
+    background-color: #04aa6d;
+}
+.topnav .icon{
+    display: none;
+}
+ .display{
+    margin-left: -5%;
+   text-align: center;
+    
+}
+.infosH{
+    background-color: white;
+    width: 370px;
+    height: 611px;
+    padding: 44px 40px 50px 40px;
+}
+.infosH input ,select {
+    width: 290px;
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    outline-style: none;
+}
+.infosH h1{
+    color: #dfa974;
+}
+.form{
+    padding-left: 10%;
+}
+
+.checked{
+      color: yellow;
+  }
+.btns{
+      padding: 12px;
+      margin-left: 47%;
+      position: absolute;
+      top: 95%;
+
+
+      display: flex;
+
+      
+
+  }
+.btns input{
+      outline: none;
+      border: 3px solid red;
+      transition: 1s;
+  }
+  input[type="radio"]{
+      background: transparent;
+      border: 5px solid black;
+      transition: 1s;
+      margin-left: 10%;
+  }
+  .all{
+    
+      background-image: url(back/rm27-ning-48-wood.jpg);
+      background-size: cover;
+
+  }
+  .all header h1{
+      padding-top: 5%;
+  }
+  .service{
+      width: 90%;
+      height: 120vh;
+      padding-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-bottom: 5%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "rom text1"
+      "text2 res"
+      "gym text3";
+  }
+  .rom{
+      grid-area: "rom";
+      background-image: url(rooms/family-room.jpg);
+      background-size: cover;
+  }
+  .text1{
+    background-color: white;
+    grid-area: "text1";
+    padding: 40px;
+    text-align: center;
+    
+
+  }
+  .res{
+    grid-area: "res";
+    background-image: url(rooms/restaurents.jpg);
+    background-size: cover;
+}
+.text2{
+    background-color: white;
+  grid-area: "text2";
+  padding: 40px;
+  text-align: center;
+
+}
+.gym{
+    grid-area: "gym";
+    background-image: url(rooms/gym.jpg);
+    background-size: cover;
+}
+.text3{
+    background-color: white;
+  grid-area: "text3";
+  padding: 40px;
+  text-align: center;
+
+}
+.suits{
+    background-color: #333333;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: row;
+   
+}
+.suits > div{
+    margin: 10px;
+    margin-bottom: -24%;
+  
+}
+
+
+@media screen and(max-width:1000 ){
+    .topnav a:not(:first-child){
+        display: none;  
+    }
+   
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .suits{
+        flex-direction: column;
+    }
+    
+}
+@media screen and(max-width: 1000px){
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: white;
+        text-decoration: none;
+
+    }
+    
+}
+.text{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20%;
+    padding-left: 6%;
+}
+.text p{
+    color: #AAAAB3;
+    font-family: 'Cabin', sans-serif;
+    font-size: 90%;
+}
+.detl a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+
+}
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.flex{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 1%;
+    
+}
+.uss{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #e0b448;
+    
+}
+.flex .img{
+    margin: 10%;
+    margin-right: 0;
+    width: 100%;
+    height: 70%;
+    background-image: url(logo/HOTEL.png);
+    background-position: center;
+   
+}
+.about_text{
+    padding: 18%;
+    font-size: 18px;
+    
+
+}
+.about_text h3{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    
+}
+.rooms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 100px;
+
+}
+.contact{
+    margin-top: 9%;
+    padding: 4%;
+    width: 100%;
+    margin-left: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(logo/ContactUs.a8cf6159.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+footer{
+    background-color: #212529;
+    color: #fff;
+}
+.foter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item4 item5";
+    
+}
+.foter .item1{
+    grid-area: item1;
+    font-family: 'Cabin', sans-serif;
+}
+.foter .item1 h1{
+    font-family: 'Cabin', sans-serif;
+    color: #DFA974;
+    font-size: 150%;
+
+}
+.foter .item1 p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 90%;
+    color: #AAAAB3;
+}
+.foter .item2{
+    grid-area: item2;
+    font-family: 'Cabin', sans-serif;
+}
+.foter .item3{
+    grid-area: item3;
+    font-family: 'Cabin', sans-serif;
+    
+}
+.foter .item4{
+    grid-area: item4;
+    font-family: 'Cabin', sans-serif;
+    
+}
+.foter .item4 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    margin: 10px;
+
+}
+.foter .item4 a:hover{
+    color: aquamarine;
+}
+.foter .item5{
+    grid-area: item5;
+    font-family: 'Cabin', sans-serif;
+    
+}
+.foter p{
+    color: #AAAAB3;
+    font-family: 'Cabin', sans-serif;
+    font-size: 90%;
+}
+.foter h1{
+    color: #DFA974;
+    font-family: 'Cabin', sans-serif;
+    font-size: 150%;
+}
+.foter >div{
+    padding: 20px;
+}
+
+i{
+    color: white;
+    width: 15px;
+    margin-left: 10%;
+
+}
+.foter input[type="email"]{
+    outline-style: none;
+    border: none;
+    background-color: #707079;
+    height: 14%;
+}
+.foter input[type="submit"]{
+    color: white;
+    background-color: #DFA974;
+    border: none;
+    outline-style: none;
+    width: 30%;
+    font-size: 101%;
+    height: 14%;
+    
+}
+.local{
+    margin-top: 10%;
+    margin-left: -4%;
+    width: 103%;
+
+    
+}
+
+.div1{
+    padding-left: 5%;
+    padding-top: 2%;
+    grid-area: "div1";
+    
+
+
+}
+
+

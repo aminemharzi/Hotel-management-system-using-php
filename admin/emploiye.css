@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chambres{
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    background-color: #eeee;
+    height: auto;
+    width: 82%;
+    padding: 1.5%;
+    height: 100%;
+}
+.menu-bar ul{
+    float: left;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: block;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+header h2{
+    text-align: center;
+}
